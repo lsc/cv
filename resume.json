@@ -1,0 +1,191 @@
+{
+	"basics": {
+		"name": "Lowe Schmidt",
+		"label": "Systems Administrator",
+		"picture": "headshot.jpg",
+		"email": "jobs@loweschmidt.se",
+		"phone": "+46 723 867 175",
+		"website": "http://loweschmidt.se",
+		"summary": "Lowe is dedicated and pragmatic operations engineer, a love for computers that turned into an interest in free and open source software and UNIX culture carved the path to a career in IT Operations.",
+		"location": {
+			"address": "Rubinvägen 9",
+			"postalCode": "126 78",
+			"city": "Hägersten",
+			"countryCode": "SE",
+			"region": "Stockholm"
+		},
+		"profiles": [
+		{
+			"network": "Twitter",
+			"username": "loweschmidt",
+			"url": "https://twitter.com/loweschmidt"
+		},
+		{
+			"network": "LinkedIN",
+			"username": "Lowe Schmidt",
+			"url": "https://se.linkedin.com/in/loweschmidt"
+		}
+	]
+
+	},
+
+	"work": [
+	{
+		"company": "Init",
+		"position": "Consultant",
+		"website": "http://www.init.se",
+		"startDate": "2013-11-01",
+		"summary": "As a Consultant for Init I have worked with customers in the multimedia broadcasting business, startups in the telecom sphere and online gaming sites.",
+		"highlights": [
+			"Designed and implemented a complete infrastructure including provisioning, configuration management, ad-hoc command execution, monitoring, metrics collection and log aggregation. Custom Puppet module development for automating application server installs. Enabled us to spin up new environments on the vSphere based cluster in less than one hour."
+		]
+	},
+	{
+		"company": "Avanza Bank",
+		"position": "System Administrator",
+		"website": "https://www.avanza.se",
+		"startDate": "2013-04-01",
+		"endDate": "2013-10-31",
+		"summary": "Systems administration and infrastructure design for the banks web platform based on RHEL/Solaris, Tomcat, Gigaspaces, Oracle and MongoDB.",
+		"highlights": [
+			"Refactored our complete Puppet code base to follow the language style guides",
+			"Educated coworkers in idiomatic Puppet and performed code reviews"
+			]
+	},
+
+		{
+			"company": "Ztorm",
+			"position": "System Administrator",
+			"website": "http://www.ztorm.com",
+			"startDate": "2013-01-01",
+			"endDate": "2013-03-31",
+			"summary": "System Administrator for a digital media distribution company, doing web and storage operations. ",
+			"highlights": [
+
+				]
+		},
+
+		{
+			"company": "Delta Projects",
+			"position": "System Administrator",
+			"website": "https://www.deltaprojects.com",
+			"startDate": "2012-08-01",
+			"endDate": "2012-12-31",
+			"summary": "Systems administration and operations design for an ad serving and real time bidding company for online banners and commercials",
+			"highlights": [
+				"Took part in designing and implementing a new data center, including physical planning, rack and stack, physical and logical network design and routing", 
+				"Introduced and implemented automated provisioning of new machies using The Foreman, including OS installations, DNS reservation and registration of machines in Chef",
+				""
+				]
+		},
+		{
+			"company": "Unibet",
+			"position": "Infrastructure Technician",
+			"website": "https://www.unibet.com",
+			"startDate": "2011-04-01",
+			"endDate": "2012-07-31",
+			"summary": "",
+			"highlights": [
+
+				]
+
+		},
+		{
+			"company": "24 Solutions",
+			"position": "Systems Specialist, Consultant",
+			"website": "https://www.24solutions.se",
+			"startDate": "2010-09-01",
+			"endDate": "2011-03-31",
+			"summary": "",
+			"highlights": [
+
+				]
+		},
+
+		{
+			"company": "Squace",
+			"position": "Systems Administrator",
+			"website": "",
+			"startDate": "2010-03-17",
+			"endDate": "2010-07-31",
+			"summary": "",
+			"highlights": [
+			]
+
+		},
+	{
+		"company": "R2M",
+		"position": "Systems Administrator, Consultant",
+		"website": "http://www.r2m.se",
+		"startDate": "2007-12-03",
+		"endDate": "2009-07-31",
+		"summary": "",
+		"highlights": [
+		]
+
+	}
+	],
+		"volunteer": [
+		{
+			"organization": "DevOps Stockholm",
+			"position": "Founder, Organizer, Speaker",
+			"website": "http://coderdojo.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Global movement of free coding clubs for young people.",
+			"highlights": [
+				"Awarded 'Teacher of the Month'"
+				]
+		}
+	],
+		"education": [
+		{
+			"institution": "JENSEN Education",
+			"area": "UNIX/Linux Systems Administration",
+			"studyType": "KY",
+			"startDate": "2005-10-01",
+			"endDate": "2007-05-31",
+			"courses": [
+				"Linux Systems Administration",
+				"MySQL Database Administration"
+				]
+		}
+	],
+		"skills": [
+		{
+			"name": "Computer Networking",
+			"level": "Proficient",
+			"keywords": [
+				"TCP/IP",
+				"Firewalls",
+				"Load Balancing",
+				"DNS",
+				"DHCP"
+
+			]
+		},
+		{
+			"name": "Compression",
+			"level": "Master",
+			"keywords": [
+				"Mpeg",
+			"MP4",
+			"GIF"
+				]
+		}
+	],
+		"languages": [
+		{ 
+			"language": "Swedish",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "German",
+			"fluency": "Proficient"
+		},
+		{
+			"language": "English",
+			"fluency": "Full professional profiency"
+		}
+	]
+}
