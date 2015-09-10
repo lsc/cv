@@ -43,7 +43,8 @@
 		"summary": "Consulting in areas like IT operations, infrastructure as code and continous delivery, customers include telecom startups, multimedia broadcasting companies and online gaming sites.",
 		"highlights": [
 			"Designed and implemented a complete infrastructure including provisioning, configuration management, ad-hoc command execution, monitoring, metrics collection and log aggregation. ",
-			"Custom Puppet module development for automating application server installs. Enabled us to spin up new environments on the vSphere based cluster in less than one hour."
+			"Custom Puppet module development for automating application server installs. Enabled us to spin up new environments on the vSphere based cluster in less than one hour.",
+			"Co organizing and presenting on our own one day conference"
 		]
 	},
 	{
@@ -69,9 +70,8 @@
 			"endDate": "2013-03-31",
 			"summary": "System Administrator for a digital media distribution company, doing web and storage operations. ",
 			"highlights": [
-				"Introduced configuration management and implemented Puppet with supply drop for on demand automation",
+				"Introduced configuration management and implemented push based Puppet for on demand automation",
 				"Educated developers on the value of repetable and consistent environments, introduced Vagrant and built the first iteration of development environments"
-
 			]
 		},
 
