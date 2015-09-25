@@ -2,7 +2,7 @@
 
 % This is a helpful package that puts math inside length specifications
 \usepackage{calc}
-\usepackage[latin1]{inputenc}
+%\usepackage[latin1]{inputenc}
 \usepackage[swedish]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{tgpagella}
@@ -203,45 +203,46 @@ Rubinvägen 9			& \textit{Phone:} +46 723 867 157\\
 \section{Experience}
 %
 %
-\textbf{Technical Consultant} at \href{http://www.init.se}{\textbf{Init}}\hfill {Since November 2013}
+\textbf{Consultant} at \href{http://www.init.se}{\textbf{Init}}\hfill {Since November 2013}
 \begin{outerlist}
-\item[]  As a Consultant for Init I have worked with customers in the media and broadcasting business, startups in the telecom sphere and online gambling sites.
+\item[]As a Consultant for Init I have worked with customers in the media and broadcasting business, startups in the telecom sector and online gambling.
 
-	\item Designed and implemented a complete infrastructure including provisioning, configuration management, ad-hoc command execution, monitoring, metrics collection and log aggregation. Custom Puppet module development for automating application server installs. Enabled us to spin up new environments on the vSphere based cluster in less than one hour.
-
-
-
-
- \textit{Technology keywords:} CentOS, Bash, GFS, VMWare, Puppet, The Foreman, Saltstack, Graphite, Grafana, ELK Stack, Gigaspaces XAP 
+	\item Designed, automated and implemented infrastructure for Joors. Brought down the provisioning of complete environments to < 1 hour,
+		using vSphere, The Foreman and Puppet.
+	\item Custom Puppet module development to manage Gigaspaces, I also extracted the core to a (work in progress) open source version.
+	\item Developed tools to fix subtitles and manifest files for the media archive at Viaplay.
+	\item Automated rolling and full restarts of a Hazelcast based application using Saltstack.
 \end{outerlist}
 \blankline
 
 \textbf{System Administrator} at \href{http://www.avanza.se}{\textbf{Avanza}}\hfill {April 2013 - October 2013}
 \begin{outerlist}
-\item[] At Avanza I worked with 
+\item[]Systems administrator and infrastructure design for the Web Operations team at Avanza. Our technical platform was based on
+	RHEL/Solaris, the JVM, Gigaspaces, Oracle and MongoDB. We used an agile approach to operations, combining Scrum and Kanban.
 
+	\item Developed and refactored big parts of our Puppet codebase to meet language guidelines.
+	\item Coached team members on idiomatic Puppet and performed code reviews.
+	\item Part of the team that redesigned our datacenter, including physical and logical network planning and hardware evaluation.
 
-
-\textit{Technology keywords:} RHEL, Splunk, Puppet, Oracle, MySQL, Tomcat, Gigaspaces XAP,
 \end{outerlist}
 \blankline
 
 \textbf{System Administrator} at \href{http://www.ztorm.com}{\textbf{Ztorm}}\hfill {January 2013 - March 2013}
 \begin{outerlist}
-\item[] System Administrator for a digital media distribution company, doing web and storage operations. 
-
-
-\textit{Technology keywords:} Gentoo, Apache, PHP, OpenSolaris, FreeBSD, OpenBSD, ZFS.
+\item[] System Administrator for a digital media distribution company, doing web and storage operations. Our infrastructure was a
+	combination of Gentoo, OpenBSD, OpenSolaris and FreeBSD.
+	\item Leveraged supply\_drop to do push based automation with Puppet.
+	\item Introduced the development team to Vagrant and automated their development environments.
 \end{outerlist}
 \blankline
 
 \textbf{System Administrator} at {\textbf{The Delta Projects}}\hfill {August 2012 - December 2012}
 \begin{outerlist}
-\item[] Delta Projects provides a ad serving, real time bidding and analytics platform.
+\item[] System administrator for Delta Project ad serving and real time bidding systems. 
+	\item Part of the two man team designing the new datacenter, includin racking and stacking, physical and logical network design and
+		configuration.
+	\item Automated our provisioning of machines, DNS names and DHCP leases, using The Foreman. 
 
-\item[]I was part of the design and implementation of the new datacenter to expand into the Netherlands and Germany. Automated our provisioning of machines DNS names and IP adresses, racked and stacked machines, designed networks, configured switches and wrote chef cookbooks.
-
-\textit{Technology keywords:} Ubuntu, Jetty, MySQL, Chef, The Foreman, BIND, XenServer, Force10 switches. 
 \end{outerlist}
 \blankline
 
