@@ -1,4 +1,4 @@
-\documentclass[10pt,sans]{moderncv}
+\documentclass[8pt,sans]{article}
 
 % This is a helpful package that puts math inside length specifications
 \usepackage{calc}
@@ -195,7 +195,7 @@
 \newlength{\rcollength}\setlength{\rcollength}{1.85in}%
 %
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
-Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
+Lingv\"agen 184		& \textit{Phone:} +46 723 867 157\\
 123 61 Farsta		& \textit{E-mail:} \href{mailto:jobs@loweschmidt.se} {jobs@loweschmidt.se}\\
 
 \end{tabular}
@@ -205,21 +205,22 @@ Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
 %
 \textbf{Senior Operations Engineer} at \href{https://www.qapital.com}{\textbf{Qapital}}\hfill {Since September 2017}
 \begin{outerlist}
-\item[] Qapital is a neobank offering saving, spending and investment products together with a unique rules and goals approach to finances. 
-\item[] Infrastructure design, development and architecture, using AWS, Terraform, Terragrunt, Consul, Nomad and Vault.
+\item[] Infrastructure development and architecture, using AWS, Terraform, the HashiStack (Consul, Nomad, Vault), Golang and Bash.
 
-\item Transformed a manually provisioned and static compute platform with lots of single point of failures to a automated, distributed platform based around the HashiStack (Consul, Nomad, Vault), provisioned with Packer, Terraform and Ansible. The platform went live in production November 2018.
-\item Migrated manually managed EC2 instances running Percona Galera cluster to AWS Aurora, cutting down maintenance work from 10 of hours a week to minutes a month. Moved TB's of data with no noticeable user impact.
-\item Automating and codifying repetitive work like certificate issuing, platform creation and destruction, AMI building and deployment of services.
+\item Transformed a manual provisioned and static compute platform with multiple single points of failures to an automated, distributed platform based around the HashiStack, provisioned and managed with Ansible, Packer and Terraform.
+\item Migrated a manually managed Percona Galera cluster to AWS Aurora, cutting down maintenance work from 10 of hours a week to minutes a month, moved TB's of data with no noticeable user impact.
+\item Implemented CD for Terraform with Atlantis, allowing coworkers outside of the platform team to manage infrastructure independently and with autonomy.
+\item Automated repetitive work like TLS certificate issuing, platform creation and destruction, AMI building and deployment of services.
  
 \end{outerlist}
 \blankline
 
 \textbf{Operations Engineeer} at \href{http://www.dice.se}{\textbf{DICE}}\hfill {July 2016 - September 2017}
 \begin{outerlist}
-\item[]I am part of the Infrastructure and Developer Experience team where we simplify and enable developers to be more productive, with more reliability and with less overhead. We work with cloud providers, container orchestration, configuration management and custom tools development.
+\item[] Part of the Infrastructure and Development Experience team that simplified and enabled developers to be more productive, with more reliability and with less overhead. Worked with cloud providers, configuration management, container orchestrators and developed custom tools.
 
-\item Operated and developed the infrastructure that ran all financial transactions for Battlefield and Battlefront titles, lots of ASG in AWS, a bunch of AWS Aurora clusters, lots and lots of SNS and SQS. All running on Apache Mesos, Apache Aurora, built on Scala, Finagle and Thrift.
+
+\item Operated and developed the infrastructure that ran all financial transactions for Battlefield and Battlefront titles, heavy use of auto scaling groups, Aurora MySQL and SQS with SNS for Pub/Sub. All running on Apache Mesos, Apache Aurora, built on Scala, Finagle and Thrift.
 \item Collaborated with EA in the design and implementation of a new reference platform built with Terraform running Kubernetes. 
 \item Automated the creation of Team City build agents running on Kubernetes, implemented it with Helm.
 \end{outerlist}
@@ -229,7 +230,7 @@ Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
 \begin{outerlist}
 \item[] Consultant for a small consultancy, customers in markets such as broadcasting, telecom and online gambling.
 
-	\item Designed, automated and implemented infrastructure (in code) for Joors. Brought down the provisioning of complete environments to < 1 hour,
+	\item Designed, automated and implemented infrastructure (as code) for Joors. Brought down the provisioning of complete environments to < 1 hour,
 		using vSphere, The Foreman and Puppet. The platform was still in use and usable over 5 years after initial implementation.
 	\item Custom Puppet module development to manage Gigaspaces, the core of it was later open sourced.
 	\item Developed tools to manage and fix subtitles and manifest files for the media archive at Viaplay.
@@ -242,7 +243,7 @@ Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
 \item[] Avanza is a brokerage and savings bank for the Swedish market.
 
 	\item Developed and refactored big parts of our Puppet codebase, DRYing it out and separating data from code.
-	\item Coached team members and taught Puppet sensisble practices.
+	\item Coached team members and taught Puppet sensible practices.
 	\item Part of the team that redesigned our data center, including physical and logical network planning and hardware evaluation.
 	\item Learned that good leaderships always is more important than cool tech.
 
@@ -261,14 +262,14 @@ Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
 \textbf{System Administrator} at {\textbf{The Delta Projects}}\hfill {August 2012 - December 2012}
 \begin{outerlist}
 	\item Part of as small team that designed the new data center, including racking and stacking, physical and logical network design and configuration.
-	\item Built Big Data processing clusters based on Hadoop and HDFS.
+	\item Built Big Data processing clusters based on Hadoop and HDFS\@.
 	\item Fully automated provisioning of machines, using The Foreman, Chef and lots of shell glue.
 \end{outerlist}
 \blankline
 
-\textbf{Infrastructure Technician} at \href{http://www.unibet.com}{\textbf{Unibet}}  \hfill {March 2011 - July 2012}
+\textbf{Infrastructure Technician} at \href{http://www.unibet.com}{\textbf{Kindred (formerly Unibet)}}  \hfill {March 2011 - July 2012}
 \begin{outerlist}
-	 \item Designed and implemented the new provisioning and management platform based on The Foreman and Puppet. Planned the release routines, versioning and wrote the majority of our first Puppet modules. Brought down our provisioning times from multiple weeks to minutes.
+    \item Designed and implemented the new provisioning and management platform based on The Foreman and Puppet. Planned the release routines, versioning and wrote the majority of our first Puppet modules. Brought down our provisioning times from multiple weeks to minutes.
 	\item Introduced and promoted the idea of using Kanban for operations work.
 	\item Advocated the idea of using a dedicated third line from technical development to deflect questions regarding infrastructure, network or applications to a dedicated person on a rotating schedule.
 \end{outerlist}
@@ -276,20 +277,20 @@ Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
 
  \textbf{Systems Specialist, Consultant} at \href{http://www.24solutions.se}{\textbf{24 Solutions}}\hfill {September 2010 - March 2011}
 \begin{outerlist}
-	\item[] Consulting assignments where I wrote, taught and coached on well written Puppet code, introduced Kanban with WIP limits and task scope breakdown.
+	\item[] Consulting assignments where I wrote, taught and coached on well written Puppet code, introduced Kanban with WIP limits to operations teams and task scope breakdown.
 \end{outerlist}
 \blankline
 
 \textbf{System Administrator} at {\textbf{Squace} \hfill {March 2010 - July 2010}
 \begin{outerlist}
 \item Squace was a mobile browser built in Java for feature (non smart) phones.
-	\item[] Taught myself Puppet and explored MCollective, understood the importance of configuration management as a discipline and infrastructure as code as a practice. Got some experience with MongoDB, PostgreSQL and way to many virtualization platforms (we we're running KVM, VirtualBox and Xen, at the same time).
+	\item[] Taught myself Puppet and explored MCollective, understood the importance of configuration management as a discipline and infrastructure as code as a practice. Got some experience with MongoDB, PostgreSQL and way to many virtualization platforms (we were running KVM, VirtualBox and Xen, at the same time).
 \end{outerlist}
 \blankline
 
 \textbf{System Administration Consultant} at \href{http://www.r2m.se/}{\textbf{R2M}}\hfill {December 2007 - August 2009}
 \begin{outerlist}	
-\item[] Learned the importance of version control for configuration with RCS and Subversion, racked and stacked machines and learned to plan my network design up front because rearranging network equipment is exhausting, annoying and disrupting. Consulted as application server admin for WebLogic and WebSphere and replaced an aging Windows 2000 AD server with a FLOSS solution based on  OpenLDAP, Samba, Kerberos.
+\item[] Learned the importance of version control for configuration with RCS and Subversion, racked and stacked machines and learned to plan my network design up front because rearranging network equipment is exhausting, annoying and disrupting. Contracted as application server admin for WebLogic and WebSphere and replaced an aging Windows 2000 AD server with a FLOSS solution based on  OpenLDAP, Samba, Kerberos.
 \end{outerlist}
 \blankline
 
@@ -303,43 +304,25 @@ Lingvägen 184		& \textit{Phone:} +46 723 867 157\\
 \blankline
 
 \section{Additional Engagements}
-{Chairperson}, {\textbf{DevOpsdays Stockholm}} \hfill{Since 2018}
+{Chairperson}, {\textbf{DevOpsdays Stockholm}} \hfill{Since  2018}
 \begin{outerlist}
 	\item[] Currently serving as chairperson for the Swedish not for profit Devopsdays Stockholm. Founded to help foster an interest in DevOps, mainly through the DevOpsdays Stockholm conference. Part of the global DevOpsdays series of conferences.
 \end{outerlist}
 \blankline
 
-{Lead Organizer}, \href{https://devopsdays.org/events/2017-stockholm/welcome/}{\textbf{DevOpsdays Stockholm 2017}} \hfill{2017}
-\begin{outerlist}
-	\item[] DevOpsdays is a global conference organization ran by volunteers, I planned and hosted the very first event in Stockholm, Sweden.
-	Tasks included talk selection, sponsor communication and acquirement, marketing and more.
-\end{outerlist}
-\blankline
-
 {Founder and Organizer}, \href{http://www.meetup.com/DevOps-Stockholm/}{\textbf{DevOps Stockholm}} \hfill{Since 2011}
-\begin{outerlist}
-	\item[] DevOps Stockholm is a user group for people interested in things like; infrastructure as code, cross functional teams,
-		continous delivery and optimizing for sustainable productivity in the organization.
-\end{outerlist}
-\blankline
 
 {Co-Founder and Organizer}, \href{http://bodyfest.se} {\textbf{Bodyfest}} \hfill{2009 - 2013}
-\begin{outerlist}
-	\item[] Bodyfest is an annual music festival with a focus on music from or inspired by the 80's alternative electronic music scene. 
-	Bands such as Front 242, DAF, Pouppée Fabrikk and The Klinik have performed, approximately 1000 people attend the event.
-\end{outerlist}
-\blankline
 
-{Organizer and DJ}, {\textbf{Klubb Bodytåget}}, \hfill{2008 - 2013}
-\begin{outerlist}
-\item[] Klubb Bodytåget (lit. the Bodytrain) was a live club for alternative electronic music rooted in the 80's EBM scene. 
-\end{outerlist}
+{Organizer and DJ}, {\textbf{Klubb Bodytåget}} \hfill{2008 - 2013}
+
+\blankline
 
 \section{References}
 Available upon request.
 
 \section{Languages}
-Fluent in Swedish, English and German.
+Fluent in Swedish and English, conversational German.
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
